@@ -1,7 +1,6 @@
 #pragma once
 
 #include <type_traits>
-#include "global/logging.hpp"
 
 template <class, class>
 struct ProcessingInfo;
