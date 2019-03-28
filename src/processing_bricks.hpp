@@ -30,7 +30,7 @@ namespace processing {  // namespace to hide helpers
     class NoNameEnd {
       public:
         template <class PrInfo, class DeclInfo, class... Args>
-        static void forward_declaration(PrInfo prinfo, DeclInfo declinfo, Args&&... args) {
+        static void forward_declaration(PrInfo prinfo, DeclInfo, Args&&... args) {
             prinfo.user.process_declaration(std::forward<Args>(args)...);
         }
     };
