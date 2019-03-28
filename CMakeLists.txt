@@ -8,3 +8,4 @@ include_directories("src")
 include_directories("utils")
 
 add_executable(all_tests "src/test.cpp")
+add_executable(bench "example/bench.cpp")
